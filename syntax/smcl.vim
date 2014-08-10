@@ -1,16 +1,9 @@
-" smcl.vim -- Vim syntax file for smcl files.
+" syntax/smcl.vim -- Vim syntax file for smcl files.
 " Language:	SMCL -- Stata Markup and Control Language
-" Maintainer:	Jeff Pitblado <jpitblado@stata.com>
-" Last Change:	27nov2013
+" Maintainer:	Jeff Pitblado <jpitblado at stata.com>
+" Last Change:	10aug2014
 " Version:	2.0.0
-
-" Log:
-" 27nov2013	updated for Stata 13
-" 20mar2003	updated the match definition for cmdab
-" 14apr2006	'syntax clear' only under version control
-"		check for 'b:current_syntax', removed 'did_smcl_syntax_inits'
-" 26apr2006	changed 'stata_smcl' to 'smcl'
-" 09may2006	added 2 other cases for '{synoptset}'
+" Note:		updated for Stata 13
 
 if version < 600
 	syntax clear
@@ -359,3 +352,4 @@ hi def link smclString		String
 let b:current_syntax = "smcl"
 
 " vim: ts=8
+" end: syntax/smcl.vim
