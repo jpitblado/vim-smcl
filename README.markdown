@@ -15,9 +15,10 @@ git clone https://github.com/jpitblado/vim-smcl.git smcl
 
 ## Future plans
 
-Update the syntax file to conform with the current Stata release.
-Right now I beleive this syntax file was based on the smcl documentation in
-Stata 9.
+This version is more up-to-date than the one at vim.org;
+I hope to get these two sites in sync. 
+
+I have some mappings I would like to add.
 
 ## License
 
