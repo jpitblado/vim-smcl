@@ -1,0 +1,80 @@
+*smcl.txt* Vim plugin for editing Stata help and smcl files
+
+                            _|~
+  _|_|    _|  _|      _|_|  _|~
+_|      _|  _|  _|  _|      _|~
+    _|  _|  _|  _|  _|      _|~
+_|_|    _|  _|  _|    _|_|  _|~
+
+
+Syntax and mappings for Stata help and smcl files.
+
+=============================================================================
+CONTENTS                                                      *smcl-Contents*
+
+1. Usage				|smcl-Usage|
+2. Mappings				|smcl-Mappings|
+   2.1 Date				   |smcl-Date|
+   2.2 Version				   |smcl-Version|
+3. License				|smcl-License|
+4. Bugs					|smcl-Bugs|
+5. Changelog				|smcl-Changelog|
+
+=============================================================================
+1. Usage                                                         *smcl-Usage*
+
+This plugin will automatically provide syntax highlighting for Stata help and
+smcl source files (files ending in .sthlp and .smcl).
+
+=============================================================================
+2. Mappings                                                   *smcl-Mappings*
+
+My most commonly used mappings.
+
+-----------------------------------------------------------------------------
+2.1 Date                                                          *smcl-Date*
+
+Bound to: <localleader>date
+
+Get the current date in a format commonly used in version comments at the top
+of Stata help and smcl source files.
+
+-----------------------------------------------------------------------------
+2.2 Version                                                    *smcl-Version*
+
+Bound to: <localleader>vv
+          <localleader>uu
+
+<localleader>vv searches for the version comment, increments the version
+counter, and changes the date to the current date.
+
+<localleader>uu searches for the version comment and changes the date to the
+current date.  The version counter remains unchanged.
+
+=============================================================================
+3. License                                                     *smcl-License*
+
+Same as Vim (see |license|).
+
+=============================================================================
+4. Bugs                                                           *smcl-Bugs*
+
+If you find a bug, please let me know by posting it on the issue tracker:
+http://github.com/jpitblado/vim-smcl/issues/
+
+=============================================================================
+5. Changelog                                                 *smcl-Changelog*
+
+2.0.0
+	* Updated for Stata 13.
+	* Added mappings.
+	* Added documentation.
+
+1.1.1
+	* 'syntax clear' only under version control.
+	* Check for 'b:current_syntax', removed 'did_smcl_syntax_inits'.
+
+1.0.0
+	* Initial stable release on vim.org.
+
+=============================================================================
