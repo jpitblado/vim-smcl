@@ -2,6 +2,8 @@
 
 Syntax file for editing Stata help and smcl files.
 
+Some mappings I find useful while editing Stata help and smcl files.
+
 ## Installation
 
 I use [pathogen.vim](https://github.com/tpope/vim-pathogen)
