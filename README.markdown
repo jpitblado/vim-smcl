@@ -22,6 +22,7 @@ I hope to get these two sites in sync.
 
 ## License
 
-Copyright (c) Jeff Pitblado.
+Copyright (c) Jeff Pitblado
+
 Distributed under the same terms as Vim itself.  See `:help license`.
 
